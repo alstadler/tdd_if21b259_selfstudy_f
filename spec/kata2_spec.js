@@ -7,7 +7,7 @@ describe ('electrons_around_cores', function () {
         expect(electronsAroundCores([2, 2, 3, 3])).toBe(4);
     });
 
-    it('should calculate correct output for [6, 6, 4, 4]', () => {
-        expect(electronsAroundCores([6, 6, 4, 4])).toBe(3);
+    it('should calculate correct output for [6, 6, 4, 4, 1, 3]', () => {
+        expect(electronsAroundCores([6, 6, 4, 4, 1, 3])).toBe(2);
     });
 })
